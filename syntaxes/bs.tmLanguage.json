@@ -17,13 +17,13 @@
 		"classes": {
 			"patterns": [{
 				"name": "entity.name.function.member.bs",
-				"match": "\\b(TTransform|STransform|TContainer|SContainer|AnimationScheduler|ConnectionGroup|BlendControl|AnimationClip|AnimationLibrary|SplineScalarf|SplineVector3f|PoseBlend|SJoint|TJoint|SEmitter|VertexDataF32|TGravityField|SGravityField|SSpriteGeometry|TSpriteGeometry|RenderShader|TParticles|ShaderPhong|ShaderTexture|Texture2D)\\b"
+				"match": "\\b(TTransform|STransform|TContainer|SContainer|AnimationScheduler|ConnectionGroup|BlendControl|AnimationClip|AnimationLibrary|SplineScalarf|SplineVector3f|PoseBlend|SJoint|TJoint|SEmitter|VertexDataF32|VertexDataVector2f|VertexDataVector3f|TSkinPolygonGeometry|SSkinPolygonGeometry|TGravityField|SGravityField|SSpriteGeometry|TSpriteGeometry|RenderShader|TParticles|ShaderPhong|ShaderTexture|Texture2D|RenderMaterial|FileObject|TMeshGroup|SMeshGroup|MeshStructure|MeshData)\\b"
 			}]
 		},
 		"classes.properties": {
 			"patterns": [{
 				"name": "storage.type.struct.bs",
-				"match": "(^|\\s)(Object|TBaseTransform|TNode|SNode|ConnectionGroup|SSimpleTransform|STransform|AnimationLibrary|SplineVector3f|SplineBase|AnimationLibrary|BlendControl|SplineScalarf|SJoint|PoseBlend|SEmitter|VertexDataF32|SField|SSpriteGeometry|RenderShader|TParticles|ShaderPhong|ShaderTexture|Texture2D)\\x2E\\w+"
+				"match": "(^|\\s)(Object|TBaseTransform|TNode|SNode|ConnectionGroup|SSimpleTransform|STransform|AnimationLibrary|SplineVector3f|SplineBase|AnimationLibrary|BlendControl|SplineScalarf|SJoint|PoseBlend|SEmitter|VertexDataF32|VertexDataVector2f|VertexDataVector3f|VertexData|TGeometry|TSkinPolygonGeometry|SSkinPolygonGeometry|SPolygonGeometry|SField|SSpriteGeometry|RenderShader|TParticles|ShaderPhong|ShaderTexture|Texture2D|Texture|RenderMaterial|FileObject|TMeshGroup|MeshStructure|MeshData)\\x2E\\w+"
 			}]
 		},
 		"local": {
